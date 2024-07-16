@@ -20,6 +20,8 @@ on:
       - "!.vscode/**"
       - ".github/actions/**"
       - ".github/workflows/all_builds.yml"
+  workflow_dispatch:
+    
 
 # Global Settings
 # SCONS_CACHE for windows must be set in the build environment
